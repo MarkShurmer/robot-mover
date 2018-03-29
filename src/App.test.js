@@ -9,6 +9,7 @@ it('renders without crashing', () => {
         getState: () => {
             return {currentPosition: {}, isPlaced: false};
         },
+        dispatch: jest.fn(),
         subscribe: jest.fn()
     };
 
