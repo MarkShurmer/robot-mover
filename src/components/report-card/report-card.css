@@ -1,0 +1,28 @@
+.report-card {
+    border: darkblue 0.2rem solid;
+    border-radius: 0.3rem;
+    padding: 0.6rem;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0.4rem;
+    margin: 0.2rem;
+}
+
+.column {
+    flex-basis: 100%;
+    flex: 1;
+    margin: 0 0.4rem 0 0.4rem;
+}
+
+.report-card .desc {
+    width: 40%;
+}
+
+.report-card .value {
+    width: 60%;
+}

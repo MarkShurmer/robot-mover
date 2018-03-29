@@ -1,0 +1,35 @@
+.robot-board {
+    align-items: stretch;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0.4rem;
+    margin: 0.2rem;
+}
+
+.column {
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.square {
+    border-radius: 0.2rem;
+    border: darkblue 0.1rem solid;
+    height: 7rem;
+    width: 7rem;
+    color: black;
+    padding: 0.3rem;
+}
+
+.image {
+    width: 6rem;
+    height: 6rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
